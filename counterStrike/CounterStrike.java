@@ -1,3 +1,5 @@
+package counterStrike;
+
 public class CounterStrike {
     public static void main(String[] args) {
         String command1 = "Light";
