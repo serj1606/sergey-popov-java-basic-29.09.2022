@@ -21,7 +21,7 @@ public class CounterStrike {
         double summaDark = albertDark + billDark + grantDark + jackDark + martinDark;
         double resultDark = summaDark / 5;
         {
-            System.out.println("Среднее арифмитическое команды Dark " + resultDark);
+            System.out.println("Среднее арифмитическое команды Dark. " + resultDark);
         }
 
         if (resultLight > resultDark) {
