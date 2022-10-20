@@ -10,9 +10,9 @@ public class CounterStrike {
         double felixLight = 6;
         double summaLight = adamLight + brianLight + derekLight + ericLight + felixLight;
         double resultLight = summaLight / 5;
-        {
+
             System.out.println("Среднее арифмитическое команды Light " + resultLight);
-        }
+
 
         String command2 = "Dark";
         double albertDark = 15;
@@ -22,17 +22,21 @@ public class CounterStrike {
         double martinDark = 5;
         double summaDark = albertDark + billDark + grantDark + jackDark + martinDark;
         double resultDark = summaDark / 5;
-        {
-            System.out.println("Среднее арифмитическое команды Dark. " + resultDark);
-        }
 
-        if (resultLight > resultDark) {
+            System.out.println("Среднее арифмитическое команды Dark. " + resultDark);
+
+
+        if (resultLight > resultDark)
+        {
             System.out.println("Победила команда " + command1 + " набравшая " + resultLight + "  очков");
-        } else if (resultLight < resultDark) {
+        }
+         else if (resultLight < resultDark) {
             System.out.println("Победила команда " + command2 + " набравшая " + resultDark + "  очков");
-        } else {
+        }
+         else {
             System.out.println("Ничья между командами  " + command1 + " и " + command2);
         }
+
 
     }
 }
