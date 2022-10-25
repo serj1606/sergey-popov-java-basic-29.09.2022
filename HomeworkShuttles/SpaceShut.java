@@ -1,6 +1,6 @@
 package HomeworkShuttles;
 
-public class SpaceShuttle {
+public class SpaceShut {
     public static void main(String[] args) {
         int j;
         for (j = 1; j <= 155; j++) {
